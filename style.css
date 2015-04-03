@@ -1,0 +1,97 @@
+body {
+    font-family: sans-serif;
+    background: #0031ff
+}
+
+a {
+    text-decoration: none;
+    color: #00a7ff;
+}
+
+/* hide all scrollbars - content still scrollable 
+::-webkit-scrollbar { 
+    display: none;
+} */
+
+.hidden {
+    display: none;
+}
+
+/* scrollable wrapper with fixed height/width */
+.wrapper {
+    width: 450px;
+    height: 850px;
+    display: block;
+    overflow: scroll;
+    overflow-x: hidden; /* hide horizontal scrollbar */
+    margin: 0 auto 0 auto;
+    padding-right: 3px;
+}
+
+.tweetcontainer {
+    width: 95%;
+    background: #ffffff;
+    padding: 5px 5px 0 5px;
+    margin-bottom: 10px;
+    border: solid 3px #00a7ff;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.68);
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+}
+
+.avatar {
+    
+}
+
+#avatar > img {
+    width: 50px;
+    height: 50px;
+    border: solid 3px #00a7ff;
+    box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.68);
+    border-radius: 5px;
+    margin-right: 8px;
+}
+
+.tweet {
+    padding: 5px;
+    width: 100%;
+}
+
+.head {
+    font-size: 0.8em;
+    padding: 0 5px 5px 5px;
+    color: #565656;
+}
+
+.displayname {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #000000;
+}
+
+.username {
+    font-weight: bold;
+    color: #00a7ff;
+}
+
+.postedtime {
+    font-weight: bold;
+}
+
+.text {
+    width: 100%;
+    padding: 0 5px 0 5px;
+    font-size: 0.9em;
+    overflow: hidden;
+}
+
+.mediaembed {
+    
+}
+
+.mediaembed > img {
+    width: 100%;
+    padding: 5px 5px 0 5px;
+}
