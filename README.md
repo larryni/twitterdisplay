@@ -1,5 +1,11 @@
 # twitterdisplay
-Simple html5 Twitter display, probably only runs in Chrome.
+First stab at a webapp and GitHub repo.
+
+Simple Twitter home timeline display. The Python script fetches the last 20 tweets from your timeline and writes the data to csv, the javascript file reads the csv and updates the html. 
+
+It's purely to display the timeline, there are no controls to tweet, favourite, etc... All the links, tags and usernames are clickable and open in a new tab.
+
+Only tested in Chrome.
 
 ##Requirements
 * [tweepy](https://github.com/tweepy/tweepy)
