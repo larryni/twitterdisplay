@@ -29,7 +29,7 @@ $(document).ready(function () {
                                 </div>';
                 
                 $(div).append(singletweet);
-                $('.text, .username').twitterParsing();
+                $('.text, .username').twitterParsing;
                 
                 // todo: $('.mediaembed').hide(); when medialink is empty
                
