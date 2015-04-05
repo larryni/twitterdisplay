@@ -7,10 +7,10 @@ import csv
 # path to csv file (same folder as the js file)
 pathcsv = "/home/laurent/Projects/twitterdisplay/"
 
-consumer_key = "sP6KhOuF2Gf62WPW6JJttlLMY"
-consumer_secret = "xYk4AtDEqKeBpX9Gbyle3oU7wccsYbMqCilBnnFJJORAlJpgwl"
-access_token = "14101981-JITYeJslYxGq87YvDvwD7WCKPxXpR8LP5XnVjHjfX"
-access_token_secret = "81IBq2A3e4HvObv6SnwF9FWAPwDrzIDSDZZunmmnx050m"
+consumer_key = ""
+consumer_secret = ""
+access_token = ""
+access_token_secret = ""
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
