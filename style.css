@@ -13,10 +13,6 @@ a {
     display: none;
 } */
 
-.hidden {
-    display: none;
-}
-
 /* scrollable wrapper with fixed height/width */
 .wrapper {
     width: 450px;
