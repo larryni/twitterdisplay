@@ -1,5 +1,5 @@
 $(document).ready(function () {
-
+	$.getScript('twitter-highlights-js/jquery.twitterParsing.js');
     // Check csv file for tweets and display them, refresh every 5 seconds
     setInterval(function (file) {
         // fetch text file
@@ -38,7 +38,7 @@ $(document).ready(function () {
                 }
                 
                 $(div).append(template);
-                $('#text, #username').twitterParsing;
+                $('#text, #username').twitterParsing();
                 
             }
             
